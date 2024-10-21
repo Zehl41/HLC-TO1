@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/estilos/estandar.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="../imagenes/favicon-16x16.jpg" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S97PVCRHC7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S97PVCRHC7');
+</script>
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <div class="container" id="acerca">
+      <header>
+        <h1>Formatos de competiciones</h1>
+        <a href="/index.html"><abbr title="Irás al apartado principal"><img id="logo" src="/imagenes/logo.jpg"></abbr></a>
+      </header>
+
+      <nav>
+        <div id="menu">
+          <div><a href="torneos.html"><abbr title="Irás al apartado de Torneos">Torneos</abbr></a></div>
+          <div><a href="vocabulario.html"><abbr title="Irás al apartado de Vocabulario">Vocabulario</abbr></a></div>
+          <div><a href="acerca.html"><abbr title="Irás al apartado de Acerca de Nosotros">Acerca de nosotros</abbr></a></div>
+          <div><a href="bases.html"><abbr title="Irás al apartado de Bases de Torneos">Bases de torneos</abbr></a></div>
+        </div>
+      </nav>
+
+      <aside id="acerca">
+        <u><a href="#formulario"><abbr title="Te desplazarás al apartado de formularios">Formulario</abbr></a></u>
+        <u><a href="#media"><abbr title="Te desplazarás al apartado de audios y videos">Audios y videos</abbr></a></u>
+        <u><a href="#certificados"><abbr title="Te desplazarás al apartado de certificados">Certificados</abbr></a></u>
+      </aside>
+
+      <main>
+        <form action="" name="formulario" id="formulario" method="get">
+          <fieldset>
+            <label for="dni">DNI:</label>
+            <input id="dni" type="text" name="dni" required class="separador" />
+            <label for="nombre">Nombre:</label>
+            <input
+              id="nombre"
+              type="text"
+              name="nombre"
+              required
+              class="separador"
+            />
+            <label for="Apellidos">Apellidos:</label>
+            <input
+              id="apellidos"
+              type="text"
+              name="apellidos"
+              required
+              class="separador"
+            />
+            <label for="domicilio">Domicilio:</label>
+            <input
+              id="domicilio"
+              type="text"
+              name="domicilio"
+              required
+              class="separador"
+            />
+            <br />
+            <input id="Restablecer" type="reset" value="Restablecer" />
+            <input id="Enviar" type="submit" value="Enviar Formulario" />
+          </fieldset>
+        </form>
+
+        <article>
+          <div id="video">
+            <iframe
+              id="video"
+              width="400"
+              height="250"
+              src="https://www.youtube.com/embed/-AiTgVTQHJ4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+
+        <article>
+          <div id="audio">
+            <audio id="audio" controls>
+              <source src="/multimedia/audio.mp3" type="audio/mp3" />
+            </audio>
+          </div>
+        </article>
+
+        <article id="certificados">
+          <h2>Certificados de OpenWebinars</h2>
+          <img src="/certificados/certificado.jpg" />
+        </article>
+      </main>
+      <footer>© Todos los derechos reservados.</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<torneos>
+    <torneo numero="">
+        <nombre></nombre>
+        <modalidades>
+        <modalidad></modalidad>
+        </modalidades>
+        <cantidad_equipos></cantidad_equipos>
+        <pros></pros>
+        <contras></contras>
+    </torneo>
+    <torneo numero="">
+        <nombre></nombre>
+        <modalidades>
+        <modalidad></modalidad>
+        </modalidades>
+        <cantidad_equipos></cantidad_equipos>
+        <pros></pros>
+        <contras></contras>
+    </torneo>
+    <torneo numero="">
+        <nombre></nombre>
+        <modalidades>
+        <modalidad></modalidad>
+        </modalidades>
+        <cantidad_equipos></cantidad_equipos>
+        <pros></pros>
+        <contras></contras>
+    </torneo>
+    <torneo numero="">
+        <nombre></nombre>
+        <modalidades>
+        <modalidad></modalidad>
+        </modalidades>
+        <cantidad_equipos></cantidad_equipos>
+        <pros></pros>
+        <contras></contras>
+    </torneo>
+    <torneo numero="">
+        <nombre></nombre>
+        <modalidades>
+        <modalidad></modalidad>
+        </modalidades>
+        <cantidad_equipos></cantidad_equipos>
+        <pros></pros>
+        <contras></contras>
+    </torneo>
+</torneos>
