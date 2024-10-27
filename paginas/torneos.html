@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/estilos/estandar.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="/imagenes/favicon-16x16.jpg">
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4PQJFB5ZTX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4PQJFB5ZTX');
+</script>
+    <title>Desglose de torneos</title>
+</head>
+
+<body>
+    <div class="container" id="torneos">
+      <header>
+        <h1>Formatos de competiciones</h1>
+        <a href="/index.html"><abbr title="Irás al apartado principal"><img id="logo" src="/imagenes/logo.jpg"></abbr></a>
+      </header>
+  
+      <nav>
+        <div id="menu">
+          <div><a href="torneos.html"><abbr title="Irás al apartado de Torneos">Torneos</abbr></a></div>
+          <div><a href="vocabulario.html"><abbr title="Irás al apartado de Vocabulario">Vocabulario</abbr></a></div>
+          <div><a href="acerca.html"><abbr title="Irás al apartado de Acerca de Nosotros">Acerca de nosotros</abbr></a></div>
+          <div><a href="bases.html"><abbr title="Irás al apartado de Bases de Torneos">Bases de torneos</abbr></a></div>
+        </div>
+      </nav>
+
+      <aside>
+      <u><a href="#mundial"><abbr title="Haz click aquí para ir al apartado del mundial">Mundial de futbol</abbr></a></u>
+      <u><a href="#nba"><abbr title="Haz click aquí para ir al apartado de NBA">NBA</abbr></a></u>
+      <u><a href="#f1"><abbr title="Haz click aquí para ir al apartado de F1">Mundial de F1</abbr></a></u>
+      <u> <a href="#csgo"><abbr title="Haz click aquí para ir al apartado del major de CSGO">Major de CSGO</abbr></a></u>
+      <u> <a href="#fide"><abbr title="Haz click aquí para ir al apartado del mundial de Ajedrez">Mundial de ajedrez</abbr></a></u>
+      </aside>
+
+      <main>
+        <article>
+          <a name="previo"></a>
+          <h2>Información previa</h2>
+          <p>Vamos a comentar todos los aspectos de los formatos de los torneos más
+            importantes del mundo a nivel de deportes y videojuegos. Trataremos la duración, días y horas de
+            juego(éstas sólo en videojuegos), si da lugar a las sorpresas, si es lo más competitivo posible, innovación etc...
+          </p>
+        </article>
+        <div class="copa-container">
+          <img src="/imagenes/copa.jpg" alt="Copa" class="copa">
+        </div>
+        <script>
+          $(document).ready(function() {
+            $('.copa').addClass('wobble');
+          });
+    
+        </script>
+        <article>
+          <a name="mundial"></a>
+          <h2>Copa Mundial de Futbol(UCL muy similar y Worlds de LOL)</h2>
+          
+          <abbr title="Logo del mundial de futbol de qatar 2022"><img src="/imagenes/qatar22.jpg" id="qatar" alt="Logo del mundial de futbol de qatar 2022"></abbr>
+          
+          <p>El mundial de futbol es el evento competitivo con más repercusión del mundo de largo, por lo que se convierte
+            indiscutiblemente en el rey, pero, hablemos de su formato: <br>
+          Consta de una fase de 8 grupos con 4 equipos en cada grupo. Los grupos se sortean teniendo en cuenta el ranking FIFA.
+          Una vez concluida la fase de grupos se pasará a la fase de eliminatoria directa. <br>
+            <ul><u>Pros:</u>
+                <li>Fácil. La gente no se pierde a la hora de entenderlo ya que es el más común de todos</li>
+                <li>Buena representación. Todos los continentes tienen selecciones a las que podrán ver en el mundial</li>
+            </ul>
+            <ul><u>Equilibrado:</u>
+                <li>Sorpresas. Al ser pocos partidos puede dar opción a sorpresas pero por la naturaleza de las selecciones
+                  las sorpresas consisten en ganar 1 partido y que no les sirva para pasar de grupos</li>
+            </ul>
+            <ul><u>Contras:</u>
+                <li>Desigualdad. Hay muchísimas selecciones que tienen un nivel muy bajo y es casi imposible verles competir</li>
+                <li>Eliminatorias sin sorteo. Que se sepa el camino que llevará cada grupo por las eliminatorias le resta emoción</li>
+                <li>¡Puede llegar a haber un partido irrelevante de 3 en grupos!</li>
+            </ul>
+          </p>
+        </article>
+
+        <article>
+          <a name="nba"></a>
+          <h2>NBA</h2>
+          <abbr title="Logo de la NBA, la liga nacional de USA"><img src="/imagenes/nba.jpg" id="nba" alt="Logo de la NBA, la liga nacional de USA"></abbr>
+          <p>
+            El campeonato nacional de baloncesto de Estados Unidos es sin duda el torneo de baloncesto más seguido de media.
+            Es el impulsor de éste formato. Se trata de 30 equipos franquicia, 15 del lado Este y 15 del lado Oeste,
+            que compiten entre sí a ida, vuelta e ida aunque esta última sólo contra los de su conferencia. Un total de 82 partidos
+            cada equipo. Los 8 primeros de cada conferencia pasarán al Playoff. Además cada lado tiene 3 divisiones y el campeón de
+            cada división pasará a los playoffs robándole el puesto al 8 en caso de no estarlo, cosa muy improbable. Ya en Playoffs se
+            enfrentarán por seeding entre la misma conferencia, todas las eliminatorias a BO7, y en la final se enfrentarán el campeón
+            de cada conferencia. <br>
+            <ul><u>Pros:</u>
+                <li>Amplia carta. Hay tantos partidos que es imposible no encontrar algo interesante cualquier día a cualquier hora</li>
+                <li>Competitividad en Playoffs. Una vez en la ronda del KO 7 partidos no se suelen hacer largos y da pie a
+                unas series muy buenas</li>
+            </ul>
+            <ul><u>Contras:</u>
+                <li>La liga regular se hace eterna. 82 partidos son una auténtica barbaridad</li>
+                <li>Intrascendencia en temporada regular. Al haber tantos partidos todo puede estar decidido muchísimo antes
+                y no hay prácticamente nada en juego media temporada</li>
+                <li>Sorpresas. Es absolutamente imposible que haya una gran sorpresa.</li>
+            </ul>
+          </p>
+          </article>
+
+          <article>
+                <a name="f1"></a>
+                <h2>Mundial de Fórmula 1</h2>
+                <abbr title="Logo de la F1, competicion automovilística"><img src="/imagenes/f1.jpg" id="f1" alt="Logo de la F1, competicion automovilística"></abbr>
+                <p>El mundial Fórmula 1 es el deporte de motor más famoso. En el se juntan 10 escuderías con 2 pilotos
+                  cada una. Consta de 23 grandes premios separados por todo el mundo. Cada semana de campeonato tiene la
+                  siguiente estructura. Los viernes realizan doble sesión de entrenamiento de 1 hora. El sábado hay una
+                  hora de libres y más tarde la clasificación, que se divide en Q1 Q2 y Q3, las dos primeras eliminan a
+                  los 5 últimos pilotos y la última decidirá al poleman. La carrera será el domingo</p>
+                <ul><u>Pros:</u>
+                    <li>La clasificación. Tiene un formato muy divertido y ligero</li>
+                </ul>
+                <ul><u>Equilibrado:</u>
+                  <li>La propia naturaleza de éste deporte hace que haya pocas sorpresas debido a la diferencia de coches,
+                    pero cuando ocurre algo no planeado como cambio de tiempo o choque ocurren carreras muy divertidas e
+                    impredecibles</li>
+                </ul>
+                <ul><u>Contras:</u>
+                  <li>Al ser muchos grandes premios puede estar decidido el campeonato desde mucho antes de acabar</li>
+                </ul>
+          </article>
+
+          <article>
+              <a name="csgo"></a>
+              <h2>Major de CSGO</h2>
+              <abbr title="Logo del major de Antwerp de 22, competición de CSGO"><img src="/imagenes/major.jpg" id="major" alt="Logo del major de Antwerp de 22, competición de CSGO"></abbr>
+              <p>De los torneos más importantes de videojuegos. Creador de su formato, es el más innovador y el futuro. Por ranking acaban llegando 24 equipos de 3 regiones diferentes. Primero se enfrentan 16 equipos en un formato GSL. Consiste en que se les asigna un ranking y jugará el 1 vs 16, 2 vs 15 etc... Los ganandores se enfrentarán entre ellos y los perdedores entre sí, respetando el ranking y el buchholz. La primera y segunda ronda seran a BO1 además los que están en el cuadro de en medio en la 3 ronda, las rondas de clasificación y eliminación serán a BO3. Los 8 mejores de ésta fase se enfrentarán a los 8 mejores del torneo predecesor, con el mismo formato que la ronda anterior. Los 8 finalistas jugarán un Playoff eliminación directa a BO3.</p>
+              <ul><u>Pros:</u>
+                <li>Cantidad partidas. Los equipos no juegan muchísimos partidos por lo que cada partido decide mucho</li>
+                <li>Estabilidad. Los 8 finalistas anteriores se aseguran jugar el siguiente torneo.</li>
+                <li>Sorpresas. Que sean pocas partidas da lugar a sorpresas</li>
+                <li>GSL. Es un formato muy espectacular ya que cambia los emparejamientos todo el rato, y en cada momento ambos equipos están jugando por lo mismo, no existe un partido intracendente.</li>
+              </ul>
+            </article>
+
+            <article>
+              <a name="fide"></a>
+              <h2>Major de CSGO</h2>
+              <abbr title="Logo del mundial de ajedrez 2023"><img src="/imagenes/fide.jpg" id="fide" alt="Logo del mundial de ajedrez 2023"></abbr>
+              <p>El torneo de ajedrez mas importante del mundo. Consta de 14 partidas entre los 2 jugadores que jueguen el torneo, 7 con las piezas blancas
+                y 7 con las piezas negras. Gana quien consiga 7.5 puntos. En caso de empate, se jugarán 4 partidas a un ritmo mas rapido y asi sucesivamente,
+                hasta que alguien supere más de la mitad de los puntos
+              </p>
+              <ul><u>Pros:</u>
+                <li>No hay duda, gana el mejor</li>
+              </ul>
+              <ul><u>Equilibrado:</u>
+                <li>Cantidad partidas. Los jugadores juegan muchísimas partidas por lo puede hacerse pesado para el competidor y espectador.
+                  Si el enfrentamiento está siendo muy aburrido o desbalanceado puede hacerse pesado, pero si no ocurre todo lo contrario.
+                </li>
+              </ul>
+            </article>
+
+        </main>
+
+        <footer>
+            © Todos los derechos reservados.
+        </footer>
+        
+    </div>
+</body>
+</html>
